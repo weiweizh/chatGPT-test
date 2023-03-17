@@ -1,6 +1,6 @@
 # chatGPT-test
 Ask chat-gpt to help me generate a portfolio website quickly
-Questions I asked:
+# Questions I asked:
 
 write me a responsive portfolio website using tailwind css framework, html and javascript, the tailwind document website is https://tailwindcss.com/docs/installation And I want the website to be in 3 section:
 - Section 1:  about section introduce a senior product designer 
