@@ -1,0 +1,213 @@
+<!- this is a responsive portfolio template using tailwind css and Chat GPT->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <!-- Include Albert Sans font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans:400,700&display=swap">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Albert+Sans:400,700&display=swap');
+
+            body {
+                font-family: 'Albert Sans', sans-serif;
+            }
+
+        </style>
+        <!-- Include Tailwind CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.1/dist/tailwind.min.css">
+    </head>
+
+    <body>
+        <!--Navigation -->
+        <nav class="bg-gray-900 py-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-white text-3xl font-bold">Logo</a>
+                <ul class="flex">
+                    <li><a href="#" class="text-gray-300 text-lg mx-4">About</a></li>
+                    <li><a href="#" class="text-gray-300 text-lg mx-4">Services</a></li>
+                    <li><a href="#" class="text-gray-300 text-lg mx-4">Portfolio</a></li>
+                    <li><a href="#" class="text-gray-300 text-lg mx-4">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- About Section -->
+        <section class="bg-gray-100 py-20">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-left font-albert-sans">About Me</h2>
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <img class="rounded-lg shadow-md"
+                            src="https://cutewallpaper.org/24/image-placeholder-png/croppedplaceholderpng-%E2%80%93-osa-grappling.png"
+                            alt="Weiwei's Picture">
+                    </div>
+                    <div class="w-full md:w-2/3 px-4">
+                        <p class="text-gray-700 mb-4 font-albert-sans">Hello! My name is Weiwei and I'm a senior product
+                            designer with over 10 years of experience in the field. I'm passionate about creating
+                            elegant
+                            and intuitive designs that solve real-world problems. When I'm not designing, you can find
+                            me
+                            exploring new coffee shops or hiking in the mountains.</p>
+                        <p class="text-gray-700 mb-4 font-albert-sans">I'm proficient in a variety of design tools,
+                            including Sketch, Figma, and Adobe Creative Suite. I'm also experienced in user research,
+                            prototyping, and design systems. I believe that great design is a collaborative effort and I
+                            enjoy working closely with cross-functional teams to create exceptional products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="bg-white py-20">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-left font-albert-sans">My Services</h2>
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md p-6 h-full">
+                            <h3 class="text-2xl font-bold mb-2 font-albert-sans">End to end Product Design</h3>
+                            <p class="text-gray-700 mb-4 font-albert-sans">From ideation to launch, I can help you
+                                create
+                                beautiful and functional products that users will love.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md p-6 h-full">
+                            <h3 class="text-2xl font-bold mb-2 font-albert-sans">Usability testing</h3>
+                            <p class="text-gray-700 mb-4 font-albert-sans">I provide usability testing services to help
+                                you
+                                identify areas of confusion in your product and provide design recommendations to
+                                improve
+                                the user experience. Usability testing involves observing users as they interact with
+                                your
+                                product and gathering feedback on their experience. By identifying pain points and areas
+                                of
+                                confusion, I can help you optimize your product and ensure that your users have a
+                                seamless
+                                experience. Contact me today to learn more about how usability testing can benefit your
+                                product design process.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md p-6 h-full">
+                            <h3 class="text-2xl font-bold mb-2 font-albert-sans">UX evaluation</h3>
+                            <p class="text-gray-700 mb-4 font-albert-sans">Heuristic evaluation involves analyzing your
+                                product against a set of established design principles or heuristics, and identifying
+                                areas
+                                for improvement. Through this evaluation, I can provide you with a detailed report
+                                highlighting issues in your product and their importance level. This report will help
+                                you
+                                prioritize which issues to address first, and ensure that your product meets high
+                                standards
+                                of usability and user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Work Section -->
+        <section class="bg-gray-100 py-20">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-left">Latest Work</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Latest Work Item 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/640x480.png"
+                            alt="Latest Work Item 1">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Latest Work Item 1</h3>
+                            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                            <a href="#"
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">View
+                                Project</a>
+                        </div>
+                    </div>
+                    <!-- Latest Work Item 2 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/640x480.png"
+                            alt="Latest Work Item 2">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Latest Work Item 2</h3>
+                            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                            <a href="#"
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">View
+                                Project</a>
+                        </div>
+                    </div>
+                    <!-- Latest Work Item 3 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/640x480.png"
+                            alt="Latest Work Item 3">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Latest Work Item 3</h3>
+                            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                            <a href="#"
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">View
+                                Project</a>
+                        </div>
+                    </div>
+                    <!-- Latest Work Item 4 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/640x480.png"
+                            alt="Latest Work Item 4">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Latest Work Item 4</h3>
+                            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                            <a href="#"
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="bg-white py-20">
+            <div class="container mx-auto">
+                <div class="flex justify-center">
+                    <div class="w-3/4">
+                        <h2 class="text-4xl font-bold mb-4">Contact Me</h2>
+                        <form action="mailto:weiweizh2017@gmail.com" method="post" enctype="text/plain">
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-lg font-bold mb-2" for="name">Name</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-lg font-bold mb-2" for="email">Email</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="email" type="email" placeholder="Your Email">
+                            </div>
+                            <div class="mb-8">
+                                <label class="block text-gray-700 text-lg font-bold mb-2" for="message">Message</label>
+                                <textarea
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="message" rows="6" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="flex justify-center">
+                                <button type="submit"
+                                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </body>
